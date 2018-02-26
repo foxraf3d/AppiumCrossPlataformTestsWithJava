@@ -1,6 +1,6 @@
 # AppiumCrossPlataformTestsWithJava
 
-Appium test **Android**, **IOS** and **Web** using selenium grid.
+Appium testing **Android**, **IOS** and **Web** using selenium grid.
 
 ## Required to run this project
 
