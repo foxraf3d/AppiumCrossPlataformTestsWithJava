@@ -4,7 +4,7 @@ cd nodes-config
 appium --nodeconfig ./ios-node.json -p 4455 -cp 4455 &
 appium --nodeconfig ./android-node.json -p 4456 -cp 4456 &
 cd ~/Library/Android/sdk/tools/
-./emulator -avd "Android_Emulator_API_22"
+./emulator -avd "Android_Emulator_API_22" &
 
 
 

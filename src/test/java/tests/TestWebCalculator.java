@@ -27,7 +27,7 @@ public class TestWebCalculator {
 	
 	@Test
 	public void shouldSum() {
-		remoteDriver.get("http://lel.kalyneramon.com.br/");
+		remoteDriver.get("http://qaunderground.com.br/calculator/");
 		calculatorScreen.fillFirstNumber("10").fillSecondNumber("10").buttonSum.click();
 		assertTrue(calculatorScreen.operationResult().equals("20"));
 	}
